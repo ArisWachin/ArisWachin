@@ -74,6 +74,7 @@
 
 <div align="center">
 
+
 <!-- Estadísticas GitHub (Usamos una instancia alternativa estable) -->
 <picture>
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=ArisWachin&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=6495ED&icon_color=10B981&text_color=FFFFFF&bg_color=0A101F" alt="Estadísticas de GitHub" width="48%" />
