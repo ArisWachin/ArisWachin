@@ -76,7 +76,7 @@
 
 <!-- Racha de contribuciones (Streak Stats) -->
 <picture>
-  <img src="https://streak-stats.demolab.com/?user=ArisWachin&hide_border=true&background=0A101F&stroke=6495ED&ring=22D3EE&fire=10B981&currStreakLabel=6495ED&sideLabels=94A3B8&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=94A3B8&titleColor=6495ED" alt="Racha de contribuciones" width="97%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ArisWachin&hide_border=true&background=0A101F&stroke=6495ED&ring=22D3EE&fire=10B981&currStreakLabel=6495ED&sideLabels=94A3B8&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=94A3B8&titleColor=6495ED" alt="Racha de contribuciones" width="97%" />
 </picture>
 
 <br><br>
