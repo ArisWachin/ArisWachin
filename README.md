@@ -74,12 +74,19 @@
 
 <div align="center">
 
-<!-- Estadísticas GitHub (Usamos colores personalizados acordes al tema) -->
+<!-- Racha de contribuciones (Streak Stats) -->
 <picture>
-  <img src="https://github-readme-stats.vercel.app/api?username=ArisWachin&show_icons=true&hide_border=true&title_color=6495ED&icon_color=10B981&text_color=FFFFFF&bg_color=0A101F" alt="Estadísticas de GitHub" width="48%" />
+  <img src="https://streak-stats.demolab.com/?user=ArisWachin&hide_border=true&background=0A101F&stroke=6495ED&ring=22D3EE&fire=10B981&currStreakLabel=6495ED&sideLabels=94A3B8&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=94A3B8&titleColor=6495ED" alt="Racha de contribuciones" width="97%" />
+</picture>
+
+<br><br>
+
+<!-- Estadísticas GitHub (Usamos una instancia alternativa estable) -->
+<picture>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=ArisWachin&show_icons=true&hide_border=true&title_color=6495ED&icon_color=10B981&text_color=FFFFFF&bg_color=0A101F" alt="Estadísticas de GitHub" width="48%" />
 </picture>
 <picture>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArisWachin&layout=compact&hide_border=true&title_color=6495ED&text_color=FFFFFF&bg_color=0A101F" alt="Lenguajes más usados" width="48%" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ArisWachin&layout=compact&hide_border=true&title_color=6495ED&text_color=FFFFFF&bg_color=0A101F" alt="Lenguajes más usados" width="48%" />
 </picture>
 
 <br><br>
