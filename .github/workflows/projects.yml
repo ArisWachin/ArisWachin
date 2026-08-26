@@ -22,6 +22,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
       - name: Fetch live repo data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -33,10 +38,11 @@ jobs:
           python3 .github/scripts/generate_projects.py merged.json out
 
       - name: Push to projects branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          target_branch: projects
-          build_dir: out
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: projects
+          publish_dir: out
           commit_message: "Update projects panel [skip ci]"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          force_orphan: false
+          keep_files: false
